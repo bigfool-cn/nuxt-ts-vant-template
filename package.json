@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-ts-vant-template",
+  "version": "1.0.0",
+  "description": "nuxt typesrcipt vant template",
+  "author": "bigfool-cn <1063944784@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build ",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.0",
+    "babel-plugin-import": "^1.13.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vant": "^2.11.0",
+    "vue-router": "^3.4.9"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "postcss-pxtorem": "^5.1.1"
+  }
+}
